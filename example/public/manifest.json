@@ -1,6 +1,6 @@
 {
-  "short_name": "@data-portal/app-two",
-  "name": "@data-portal/app-two",
+  "short_name": "@rubenberna/counter",
+  "name": "@rubenberna/counter",
   "icons": [
     {
       "src": "favicon.ico",

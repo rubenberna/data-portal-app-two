@@ -4,7 +4,7 @@
   "description": "Counter",
   "author": "rubenberna",
   "license": "MIT",
-  "repository": "rubenberna/@data-portal/app-two",
+  "repository": "rubenberna/data-portal-app-two",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
