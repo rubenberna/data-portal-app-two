@@ -44,4 +44,4 @@ Component.propTypes = {
   })
 }
 
-export  { Component, metadata }
+export  { Component as default, metadata }
