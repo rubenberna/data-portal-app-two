@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
+import { Icon } from './_icons'
 import {
   button,
   buttonsContainer,
@@ -31,7 +32,7 @@ const metadata = {
   title: 'Counter',
   requiredPermissions: ['Guest'],
   description: 'Simple counter',
-  icon: ''
+  icon: Icon
 }
 
 Component.propTypes = {
