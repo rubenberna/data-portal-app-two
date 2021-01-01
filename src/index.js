@@ -8,13 +8,14 @@ import {
   addButton,
   subtractButton
 } from './_styles'
+import logo from 'adn-brands.svg'
 
 const Component = ({ state }) => {
   const [count, setCount] = useState(0)
 
   return (
     <div style={container}>
-      { state?.username && <h4>Hello {state.username}!</h4>}
+      {state?.username && <h4>Hello {state.username}!</h4>}
       <h3>Current count: {count}</h3>
       <div style={buttonsContainer}>
         <button style={addButton} onClick={() => setCount(count + 1)}>
@@ -32,7 +33,8 @@ const metadata = {
   title: 'Counter',
   requiredPermissions: ['Guest'],
   description: 'Simple counter',
-  icon: Icon
+  libraryPath: '@data-portal/app-two',
+  icon: logo
 }
 
 Component.propTypes = {
@@ -45,4 +47,4 @@ Component.propTypes = {
   })
 }
 
-export  { Component as default, metadata }
+export { Component as default, metadata }
