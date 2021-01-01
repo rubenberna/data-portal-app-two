@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { Icon } from './_icons'
 import {
+  addButton,
   button,
   buttonsContainer,
   container,
-  addButton,
   subtractButton
 } from './_styles'
 import logo from 'adn-brands.svg'
 
-const Component = ({ state }) => {
+const Component = (props) => {
   const [count, setCount] = useState(0)
+  const { state } = props
 
   return (
     <div style={container}>
